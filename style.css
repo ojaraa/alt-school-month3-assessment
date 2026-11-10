@@ -773,9 +773,14 @@ footer {
   .why, .price, .faq {
     padding: 3rem 1.5rem;
   }
+   .revolution-section h2{
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 700;
+   }
   .stats h2,
   .why h2,
-  .price h2 {
+  .price h2{
     font-size: 36px;
     line-height: 48px;
     font-weight: 700;
@@ -861,5 +866,8 @@ footer {
   .footer-bg-2 {
     right: 0;
     opacity: 0.5;
+  }
+  .plan-btns{
+    flex-direction: column;
   }
 }
